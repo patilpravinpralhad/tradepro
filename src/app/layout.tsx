@@ -1,7 +1,6 @@
 // src/app/layout.tsx
 // CHANGE: Added AuthProvider and PortfolioProvider wrappers around {children}
 // This makes auth state and portfolio state available to every page.
-import Link from "next/link";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
